@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "RAC Extension",
+  "version": "0.1",
+
+  "description": "doing the data entry job for RAC",
+  //"icons": {...},
+
+  // Pick one (or none)
+  //"page_action": {...},
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "uploadFile.html"
+    },
+   
+
+  // Optional
+  "author": "Omar Gawish - Cloud Concept",
+  "permissions": ["tabs","activeTab","http://*/*", "https://*/*"]
+  }
